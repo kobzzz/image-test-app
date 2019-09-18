@@ -1,3 +1,14 @@
+## От автора
+Структура проекта:
+/src
+   /api
+   /assets/svg
+   /components
+   /containers
+   /store - в силу небольшого масштаба проекта поместил все связанное с глобальным хранилищем в одну папку
+
+Сделал выбор в пользу plain CSS, т.к. использовать styled-components или sass было бы избыточно
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

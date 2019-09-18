@@ -1,0 +1,37 @@
+.image-item {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: auto;
+}
+
+.image-item__image-wrapper {
+    width: 169px;
+    height: 88px;
+    position: relative;
+}
+
+.image-item__text-section {
+    margin-left: 27px;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 169px - 27px);
+}
+
+.image-item__text-section .text-section__title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    color: #707070;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 400px;
+}
+
+.image-item__text-section .text-section__time {
+    font-size: 22px;
+    line-height: 25px;
+    color: #707070;
+}

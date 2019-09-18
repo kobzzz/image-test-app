@@ -1,0 +1,29 @@
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image__wrapper {
+    width: 100%;
+    height: 100%;
+    background: transparent linear-gradient(180deg, #D29EF8 0%, #00CED6 100%) 0% 0% no-repeat padding-box;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image__remove-icon {
+    width: 14px;
+    height: 18px;
+    opacity: 0.54;
+    position: absolute;
+    right: 5px;
+    bottom: 3px;
+    cursor: pointer;
+}
+
+.image__text {
+    font-size: 30px;
+}
